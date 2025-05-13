@@ -36,10 +36,10 @@ enable = true
 preloader = "" # use jpg, png, svg or gif format. example - "images/preloader.gif"
 
 # Navigation buttons
-[navigation_button]
-enable = true
-label = "Get Started"
-link = "contact"
+# [navigation_button]
+# enable = true
+# label = "Get Started"
+# link = "contact"
 
 
 # crisp chat

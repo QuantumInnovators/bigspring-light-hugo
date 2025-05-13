@@ -1,0 +1,64 @@
+# 主菜单
+[[main]]
+name = "首页"
+url = "/"
+weight = 1
+
+[[main]]
+name = "博客"
+url = "/blog"
+weight = 2
+
+[[main]]
+name = "价格"
+url = "/pricing"
+weight = 3
+
+[[main]]
+name = "联系我们"
+url = "/contact"
+weight = 4
+
+[[main]]
+name = "常见问题"
+url = "/faq"
+weight = 5
+
+# 页脚菜单左侧
+[[footer_left]]
+name = "关于我们"
+url = "#"
+
+[[footer_left]]
+name = "快速开始"
+url = "#"
+
+[[footer_left]]
+name = "价格"
+url = "/pricing"
+
+# 页脚菜单中间
+[[footer_middle]]
+name = "价格"
+url = "/pricing"
+
+[[footer_middle]]
+name = "平台"
+url = "#"
+
+[[footer_middle]]
+name = "功能"
+url = "#"
+
+# 页脚菜单右侧
+[[footer_right]]
+name = "隐私政策"
+url = "/privacy-policy"
+
+[[footer_right]]
+name = "服务条款"
+url = "/terms-conditions"
+
+[[footer_right]]
+name = "常见问题"
+url = "/faq"

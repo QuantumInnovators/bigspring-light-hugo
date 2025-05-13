@@ -25,3 +25,17 @@ footer_menu_middle = "Produkte"
 footer_menu_right = "Support"
 footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
 
+
+################################### Chinese language #####################################
+[zh]
+languageName = "中文"
+languageCode = "zh-CN"
+contentDir = "content/chinese"
+weight = 3
+[zh.params]
+########### footer content ##########
+footer_menu_left = "公司"
+footer_menu_middle = "产品"
+footer_menu_right = "支持"
+footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
+

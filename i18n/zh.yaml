@@ -1,0 +1,20 @@
+- id: read_more
+  translation: 阅读更多
+
+- id: send
+  translation: 发送消息
+
+- id: tags
+  translation: 标签
+
+- id: fname
+  translation: 名字
+
+- id: lname
+  translation: 姓氏
+  
+- id: email
+  translation: 电子邮箱
+
+- id: message
+  translation: 消息
