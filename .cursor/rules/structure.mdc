@@ -1,0 +1,90 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+### Project Analysis & `cursor.rule.mdc` Generation
+**Project Type:** Static Site (Hugo)
+
+**Key Technologies & Features:**
+*   **Framework:** Hugo
+*   **Theme:** `bigspring-light` (located in `themes/bigspring-light/`)
+*   **Templating:** Go Templates (Hugo's default)
+*   **Styling:**
+    *   SCSS/CSS (likely processed via PostCSS)
+    *   PostCSS with PurgeCSS (`postcss.config.js`, `package.json`)
+*   **Content:** Markdown files located in `content/`
+    *   Multilingual: `content/english/` and `content/deutsch/`
+    *   Sections: `blog`, `faq`, and various pages (`contact.md`, `pricing.md`, etc.)
+*   **Assets:** Located in `assets/` (images, js, css plugins)
+*   **Package Management:** Node.js/npm (`package.json`) for managing PostCSS and Prettier.
+*   **Configuration:**
+    *   Hugo main configuration: `hugo.toml`
+    *   PostCSS configuration: `postcss.config.js`
+    *   Formatting: `.prettierrc`
+*   **Deployment/CI:**
+    *   Netlify: `netlify.toml`
+    *   Vercel: `vercel.json`, `vercel-build.sh`
+    *   GitLab CI: `.gitlab-ci.yml`
+
+**Generated `cursor.rule.mdc`:**
+
+```mdc
+{{version: 1}}
+
+This is a [Hugo](mdc:https:/gohugo.io) project for a static website.
+
+**Key Directories & Files:**
+
+*   `hugo.toml`: Main Hugo configuration file. Defines site parameters, theme, menus, modules, and build options.
+*   `content/`: Contains the website's content in Markdown format.
+    *   `content/english/`: English version of the content.
+        *   `content/english/blog/`: Blog posts.
+        *   `content/english/faq/`: Frequently Asked Questions.
+        *   `content/english/_index.md`: Homepage content for English.
+    *   `content/deutsch/`: German version of the content.
+*   `themes/bigspring-light/`: Contains the `bigspring-light` theme files.
+    *   `themes/bigspring-light/layouts/`: Hugo layout files (Go Templates) defining the structure of pages.
+    *   `themes/bigspring-light/assets/`: Theme-specific assets (JS, SCSS).
+    *   `themes/bigspring-light/i18n/`: Theme-specific translation files.
+    *   `themes/bigspring-light/archetypes/`: Content archetypes for the theme.
+*   `assets/`: Project-level static assets (images, global CSS/JS plugins). These are processed by Hugo Pipes.
+    *   `assets/scss/`: Main SCSS files for the project, likely importing theme styles and custom styles.
+    *   `assets/js/`: Custom JavaScript files.
+*   `static/`: (If present, standard for Hugo) For static files that are copied directly to the public directory without processing.
+*   `layouts/`: Project-level layout overrides or new layouts.
+*   `archetypes/`: Project-level content archetypes.
+*   `i18n/`: Project-level translation files (e.g., `en.toml`, `de.toml`).
+*   `data/`: Data files (JSON, YAML, TOML) that can be used in templates.
+*   `public/`: Output directory where the generated static site is placed after running `hugo`. (Typically gitignored)
+*   `resources/`: Hugo's internal cache for processed assets. (Typically gitignored)
+*   `package.json`: Defines Node.js dependencies (like PostCSS, PurgeCSS, Prettier) and scripts.
+*   `postcss.config.js`: Configuration for PostCSS.
+*   `.prettierrc`: Configuration for Prettier code formatter.
+
+**Development Workflow:**
+
+*   Run `npm install` or `yarn install` to install Node.js dependencies.
+*   Use `npm run dev` (or `hugo server`) to start the local Hugo development server.
+*   Content is written in Markdown in the `content/` directory.
+*   Styling is likely managed with SCSS in `assets/scss/` and/or `themes/bigspring-light/assets/scss/`, processed by Hugo Pipes and PostCSS.
+*   Build the production site using `npm run build` (or `hugo`).
+
+**Common Tasks & Where to Look:**
+
+*   **Modifying site configuration (title, baseURL, params):** `hugo.toml`
+*   **Changing theme settings/styles:** `themes/bigspring-light/` (layouts, assets, config) or override in project-level `assets/` and `layouts/`.
+*   **Adding/editing content pages:** `content/<language>/<section>/`
+*   **Customizing HTML structure:** `layouts/` (project-level overrides) or `themes/bigspring-light/layouts/` (theme-level).
+*   **Managing CSS/JS:** `assets/` (project-level) or `themes/bigspring-light/assets/` (theme-level). Check `postcss.config.js` for PostCSS setup.
+*   **Updating Node.js dependencies or scripts:** `package.json`
+*   **Troubleshooting Hugo build/module issues:** Check Hugo documentation, `hugo.toml` for module configurations, and run `hugo mod ...` commands.
+```
+
+**How to use this `cursor.rule.mdc`:**
+
+1.  Create a file named `cursor.rule.mdc` in the root of your project.
+2.  Copy the content starting from `{{version: 1}}` into this file.
+3.  Cursor will automatically use these rules to provide better context-aware assistance for this project.
+
+Please let me know if you'd like me to investigate any specific part of the project further or refine these rules!
