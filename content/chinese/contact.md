@@ -9,8 +9,8 @@ layout: "contact"
 
 
 #### 为什么您应该联系我们！
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+我们致力于提供卓越的客户服务和支持。无论您有任何疑问、建议，或是希望与我们探讨合作机会，都欢迎您通过以下方式与我们取得联系。我们的专业团队将竭诚为您服务，并尽快给您回复。
 
 * **电话: +86 187 2560 4522** 
 * **邮箱: admin@qivators.com**
-* **地址: 360 Main rd, Rio, Brazil**
+* **地址: 四川省成都市郫都区西华大学**

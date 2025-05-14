@@ -27,12 +27,12 @@ feature:
     # feature item loop
     - name : "高效响应与敏捷交付"
       icon : "fas fa-user-clock"
-      content : "我们重视与客户的顺畅沟通，确保对您的需求快速响应、高效处理，并通过敏捷开发流程，加速项目落地。"
+      content : "我们重视与客户的顺畅沟通，确保对您的需求快速响应、高效处理，并通过敏捷开发流程，加速落地。"
       
     # feature item loop
     - name : "透明交付与全面赋能"
       icon : "fas fa-heart"
-      content : "我们提供完整的项目交付，包括清晰的源码、详尽的文档和必要的设计资产，致力于让您全面掌握项目成果，创造长远价值。"
+      content : "我们提供完整的项目交付，包括清晰源码、详尽文档和必要设计资产，致力于让您全面掌握项目成果。"
       
     # feature item loop
     - name : "持续支持与主动运维"

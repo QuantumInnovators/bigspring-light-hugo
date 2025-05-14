@@ -15,7 +15,7 @@ pricing_list:
     recommended : false
     services:
     - "快速服务"
-    - "海关清关"
+    - "咨询服务"
     - "时效服务"
     button:
       enable : true
@@ -24,17 +24,16 @@ pricing_list:
       
   # pricing item
   - name : "专业套餐"
-    currency: "$"
-    price: "49"
+    currency: "￥"
+    price: "199"
     price_per : "月"
     info : "最适合专业人士"
     recommended : true
     services:
     - "快速服务"
-    - "海关清关"
+    - "咨询服务"
     - "时效服务"
-    - "云服务"
-    - "最佳仪表盘"
+    - "云服托管"
     button:
       enable : true
       label : "开始使用"
@@ -42,15 +41,17 @@ pricing_list:
       
   # pricing item
   - name : "商业套餐"
-    currency: "$"
-    price: "199"
+    currency: "￥"
+    price: "699"
     price_per : "月"
     info : "最适合大型企业"
     recommended : false
     services:
     - "快速服务"
-    - "海关清关"
+    - "咨询服务"
     - "时效服务"
+    - "云服托管"
+    - "定制服务"
     button:
       enable : true
       label : "开始使用"
