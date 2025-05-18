@@ -56,40 +56,41 @@ service:
       - "images/service-1.png"
       - "images/service-2.png"
       - "images/service-3.png"
-      content : "请在此处详细描述Qivators在定制软件开发方面的服务内容、优势、技术栈或成功案例。例如：根据您的独特业务需求，从零开始构建高性能、可扩展的软件系统。"
+      content : "我们提供全方位的定制软件开发服务，从需求分析到系统设计、开发实施直至部署运维。我们的技术栈涵盖Java、Python、Node.js等主流开发语言，以及Spring Boot、Django、React等现代化框架。无论是企业级应用、微服务架构还是云原生解决方案，我们都能为您提供专业的技术支持。我们的团队拥有丰富的项目经验，曾成功为金融、制造、医疗等多个行业客户提供定制化软件解决方案。"
       button:
         enable : true
         label : "了解更多"
-        link : "#"
+        link : "services/custom-software-development/"
         
     # service item loop
     - title : "Web应用与门户开发"
       images:
       - "images/service-1.png"
-      content : "请在此处详细描述Qivators在Web应用与门户开发方面的服务。例如：构建用户友好的响应式网站、企业门户、电子商务平台等。"
+      content : "我们提供专业的Web应用与门户网站开发服务，涵盖企业官网、电子商务平台、内容管理系统等。采用响应式设计，确保在各种设备上都能提供出色的用户体验。我们的开发团队精通前端框架和现代化Web技术，能够构建高性能、安全可靠的Web应用。同时，我们注重用户体验和界面设计，确保您的Web应用既美观又实用。"
       button:
         enable : true
         label : "了解更多"
-        link : "#"
+        link : "services/web-application-development/"
         
     # service item loop
     - title : "企业管理系统解决方案"
       images:
       - "images/service-2.png"
-      content : "请在此处详细描述Qivators在企业管理系统方面的服务。例如：开发或集成ERP、CRM、SCM等系统，助力企业提升管理效率。"
+      content : "我们提供全面的企业管理系统解决方案，包括ERP、CRM、SCM、OA等系统的开发与集成。我们的解决方案帮助企业实现业务流程数字化、提升运营效率、降低管理成本。通过深入理解企业需求，我们能够提供定制化的系统开发、现有系统升级、系统集成等服务，助力企业实现数字化转型。"
       button:
         enable : true
         label : "了解更多"
-        link : "#"
+        link : "services/enterprise-management-system/"
         
     # service item loop
-    - title : "移动应用开发 (iOS & Android)"
+    - title : "嵌入式应用开发"
       images:
       - "images/service-3.png"
-      content : "请在此处详细描述Qivators在移动应用开发方面的服务。例如：提供原生或跨平台移动应用开发，覆盖从设计、开发到上线的全流程。"
+      content : "我们提供专业的嵌入式应用开发服务，涵盖工业控制、物联网设备、智能硬件等领域。我们的团队精通各类嵌入式系统开发，包括实时操作系统(RTOS)、Linux嵌入式系统等。从底层驱动开发到应用层软件开发，我们能够提供完整的嵌入式解决方案，帮助客户实现产品智能化升级。"
       button:
         enable : true
         label : "了解更多"
+        link : "services/embedded-application-development/"
         
 ################### Screenshot ########################
 screenshot:
