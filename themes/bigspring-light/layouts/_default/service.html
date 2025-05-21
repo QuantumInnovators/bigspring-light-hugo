@@ -1,0 +1,203 @@
+{{ define "main" }} {{ partial "page-header.html" . }}
+
+<!-- Service Overview -->
+{{ with .Params.overview }} {{ if .enable }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+                <h2 class="section-title">{{ .title | markdownify }}</h2>
+                <p class="lead mb-5">{{ .subtitle | markdownify }}</p>
+                <p class="mb-5">{{ .content | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            {{ range .features }}
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-card text-center p-4">
+                    <i class="{{ .icon }} mb-3 text-primary" style="font-size: 2rem;"></i>
+                    <h3 class="h5 mb-3">{{ .title | markdownify }}</h3>
+                    <p class="mb-0">{{ .content | markdownify }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- Service Details -->
+{{ with .Params.service_details }} {{ if .enable }}
+<section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+                <h2 class="section-title">{{ .title | markdownify }}</h2>
+                <p class="lead mb-5">{{ .description | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            {{ range .items }}
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <i class="{{ .icon }} mb-3 text-primary" style="font-size: 2rem;"></i>
+                        <h3 class="h5 mb-3">{{ .name | markdownify }}</h3>
+                        <p class="mb-4">{{ .content | markdownify }}</p>
+                        <ul class="list-unstyled mb-0">
+                            {{ range .benefits }}
+                            <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>{{ . | markdownify }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- Technology Stack -->
+{{ with .Params.tech_stack }} {{ if .enable }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+                <h2 class="section-title">{{ .title | markdownify }}</h2>
+                <p class="lead mb-5">{{ .description | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            {{ range .stacks }}
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h3 class="h5 mb-3">{{ .category | markdownify }}</h3>
+                        <p class="mb-3">{{ .description | markdownify }}</p>
+                        <div class="d-flex flex-wrap gap-2">
+                            {{ range .items }}
+                            <span class="badge bg-primary">{{ . }}</span> {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- Process -->
+{{ with .Params.process }} {{ if .enable }}
+<section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+                <h2 class="section-title">{{ .title | markdownify }}</h2>
+                <p class="lead mb-5">{{ .description | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            {{ range .steps }}
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="{{ .icon }} text-primary me-3" style="font-size: 2rem;"></i>
+                            <div>
+                                <h3 class="h5 mb-1">{{ .name | markdownify }}</h3>
+                                <p class="text-muted mb-0">预计时间：{{ .duration }}</p>
+                            </div>
+                        </div>
+                        <p class="mb-0">{{ .content | markdownify }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- Case Studies -->
+{{ with .Params.case_studies }} {{ if .enable }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+                <h2 class="section-title">{{ .title | markdownify }}</h2>
+                <p class="lead mb-5">{{ .description | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            {{ range .cases }}
+            <div class="col-lg-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h3 class="h5 mb-3">{{ .title | markdownify }}</h3>
+                        <p class="mb-4">{{ .content | markdownify }}</p>
+                        <h4 class="h6 mb-3">项目成果：</h4>
+                        <ul class="list-unstyled mb-0">
+                            {{ range .results }}
+                            <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>{{ . | markdownify }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- FAQ -->
+{{ with .Params.faq }} {{ if .enable }}
+<section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+                <h2 class="section-title">{{ .title | markdownify }}</h2>
+                <p class="lead mb-5">{{ .description | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="accordion" id="faqAccordion">
+                    {{ range $index, $element := .questions }}
+                    <div class="accordion-item border-0 mb-3">
+                        <h3 class="accordion-header" id="heading{{ $index }}">
+                            <button class="accordion-button {{ if ne $index 0 }}collapsed{{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $index }}" aria-expanded="{{ if eq $index 0 }}true{{ else }}false{{ end }}" aria-controls="collapse{{ $index }}">
+                {{ .question | markdownify }}
+              </button>
+                        </h3>
+                        <div id="collapse{{ $index }}" class="accordion-collapse collapse {{ if eq $index 0 }}show{{ end }}" aria-labelledby="heading{{ $index }}" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                {{ .answer | markdownify }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- Call to Action -->
+{{ with .Params.call_to_action }} {{ if .enable }}
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="section-title">{{ .title | markdownify }}</h2>
+                <p class="lead mb-4">{{ .content | markdownify }}</p>
+                {{ if .button.enable }} {{ with .button }}
+                <a href="{{ .link | relLangURL }}" class="btn btn-primary">{{ .label }}</a> {{ end }} {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }} {{ end }}

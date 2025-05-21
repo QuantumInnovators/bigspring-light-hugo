@@ -95,8 +95,8 @@ mastodon = "" # Your verification code
 [cookies]
 enable = true
 expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
+content = "本网站使用Cookie。继续使用本网站即表示您同意我们使用Cookie。"
+button = "我接受"
 
 ############################# social site ########################
 [[social]]

@@ -1,9 +1,9 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "https://qivators.com"
 title = "Qivators"
 theme = "bigspring-light"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+timeZone = "Asia/Shanghai"
 # post pagination
 pagination.pagerSize = 3
 # post excerpt
