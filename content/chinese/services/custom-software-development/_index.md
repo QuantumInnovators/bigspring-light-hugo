@@ -63,11 +63,11 @@ tech_stack:
   description: "我们使用现代化的技术栈，确保开发出高质量、高性能的软件系统"
   stacks:
     - category: "后端开发"
-      items: ["Java", "Python", "Node.js", "Go"]
+      items: ["Go","Java", "Python"]
       description: "支持多种后端开发语言，满足不同场景需求"
       
     - category: "前端开发"
-      items: ["React", "Vue.js", "Angular", "TypeScript"]
+      items: ["Vue.js", "React", "Angular", "TypeScript"]
       description: "采用主流前端框架，打造优秀的用户体验"
       
     - category: "数据库"
@@ -115,21 +115,19 @@ case_studies:
   title: "成功案例"
   description: "我们已成功为多个行业客户提供定制软件开发服务"
   cases:
-    - title: "某大型制造企业ERP系统"
+    - title: "某研究所生物分析系统"
       image: "images/case-1.png"
-      content: "为客户开发了完整的ERP系统，实现了生产、采购、销售等业务流程的数字化管理"
+      content: "为客户开发了完整的后台管理系统+生物DNA分析系统，实现了内部系统使用管理与内部DNA物种分析。"
       results:
-        - "生产效率提升30%"
-        - "库存成本降低20%"
-        - "订单处理时间缩短50%"
-      
-    - title: "某金融机构微服务平台"
-      image: "images/case-2.png"
-      content: "采用微服务架构，为客户构建了高可用、可扩展的金融服务平台"
+        - "自研分析系统从0到1"
+        - "外部分析成本降低50%"
+    
+    - title: "某学校园林3D教学系统"
+      image: "images/case-1.png"
+      content: "为客户开发了完整的用于教学的3D园林程序。"
       results:
-        - "系统可用性达到99.99%"
-        - "支持每秒10万笔交易"
-        - "新功能上线时间缩短80%"
+        - "自研分析系统从0到1"
+        - "教学效率提升80%"
 
 ####################### FAQ ##########################
 faq:

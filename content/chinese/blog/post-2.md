@@ -1,6 +1,6 @@
 ---
 title: "虚拟仿真-利用Unity帮用户解决教学难题"
-date: 2020-07-18T10:07:21+06:00
+date: 2023-07-18T10:07:21+06:00
 # post image
 image: "images/blog/post-2.jpg"
 # author

@@ -120,21 +120,13 @@ case_studies:
   title: "成功案例"
   description: "我们已成功为多个行业客户提供企业管理系统解决方案"
   cases:
-    - title: "某制造企业ERP系统"
+    - title: "某企业ERP系统"
       image: "images/case-1.png"
       content: "为客户开发了完整的ERP系统，实现了生产、采购、销售等业务流程的数字化管理"
       results:
         - "生产效率提升40%"
         - "库存成本降低30%"
         - "订单处理时间缩短60%"
-      
-    - title: "某零售企业CRM系统"
-      image: "images/case-2.png"
-      content: "开发了智能CRM系统，实现了客户全生命周期管理"
-      results:
-        - "客户满意度提升35%"
-        - "销售转化率提升25%"
-        - "客户流失率降低40%"
 
 ####################### FAQ ##########################
 faq:

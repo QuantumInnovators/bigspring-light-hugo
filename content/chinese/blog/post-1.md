@@ -1,6 +1,6 @@
 ---
 title: "生信-我们是如何帮用户做DNA分析系统的"
-date: 2020-08-18T10:07:21+06:00
+date: 2024-08-18T10:07:21+06:00
 # post image
 image: "images/blog/post-1.jpg"
 # author
