@@ -159,5 +159,5 @@ call_to_action:
   button:
     enable: true
     label: "联系我们"
-    link: "/chinese/contact/"
+    link: "/contact/"
 --- 
