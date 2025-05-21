@@ -16,7 +16,7 @@ theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
-contact_form_action = "#!" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "https://formsubmit.co/qivators@proton.me" # contact form works with [https://airform.io/] or [https://formspree.io]
 # demo form action
 demo_form_action = "#!" # demo form works with [https://airform.io/] or [https://formspree.io]
 # career form action
