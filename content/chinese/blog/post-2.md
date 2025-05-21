@@ -1,168 +1,59 @@
 ---
-title: "虚拟仿真-利用Unity帮用户解决教学难题"
-date: 2023-07-18T10:07:21+06:00
+title: "虚拟仿真-利用Unity实现园林建筑3D系统"
+date: 2024-06-10T10:00:00+08:00
 # post image
 image: "images/blog/post-2.jpg"
 # author
-author: "Joseph Gonzalez"
+author: "Your Name"
 # post type (regular/featured)
 type: "regular"
 # meta description
-description: "This is meta description"
+description: "基于Unity开发的园林建筑3D系统，支持exe安装、教学观看与沉浸式场景游览。"
 # post draft
 draft: false
 ---
 
-Heading example Here is example of hedings. You can use this heading by following markdownify rules.
+随着虚拟现实与三维仿真技术的发展，园林建筑的数字化展示和教学方式也在不断创新。我们基于Unity（U3D）开发了一套园林建筑3D系统，支持用户通过exe安装包在本地电脑上运行，实现沉浸式的教学观看和3D场景自由游览。
 
-# Heading 1 
-## Heading 2 
-### Heading 3 
-#### Heading 4 
-##### Heading 5 
-###### Heading 6
+## 主要功能
 
+### 1. 一键安装，便捷体验
 
-<hr>
+用户只需下载并安装exe程序，即可在Windows平台上快速体验园林建筑3D系统，无需复杂配置，操作简单便捷。
 
-##### Emphasis
+### 2. 教学观看，辅助学习
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+系统内置多种教学模式，支持自动讲解园林建筑的历史、结构与文化背景。用户可选择不同的教学路线，系统会自动切换视角并配合语音或文字讲解，帮助学生和爱好者深入了解园林艺术。
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+### 3. 3D场景游览，沉浸体验
 
-Combined emphasis with **asterisks and _underscores_**.
+用户可自由漫游于精心还原的大观园、茶园等经典园林场景。支持第一人称和第三人称视角切换，体验真实的空间感和美学氛围。场景中还原了亭台楼阁、小桥流水、花木扶疏等园林元素，细节丰富，极具观赏性。
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+### 4. 多园林类型支持
 
-<hr>
+目前系统已集成大观园、茶园等多种园林风格，后续将持续扩展更多园林类型，满足不同教学和展示需求。
 
-##### Link
-[I'm an inline-style link](https://www.google.com)
+### 5. 交互与探索
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+用户可与场景中的部分物体进行交互，如点击查看建筑介绍、触发动画演示等，增强学习趣味性和主动性。
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+## 技术亮点
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+- **基于Unity 3D引擎开发**，高效渲染大规模场景，保证流畅体验。
+- **真实物理与光影效果**，还原园林建筑的空间美感。
+- **可扩展性强**，支持后续添加更多园林类型和教学内容。
+- **本地运行，数据安全**，无需联网即可使用，适合教学和展览场景。
 
-[You can use numbers for reference-style link definitions][1]
+## 应用场景
 
-Or leave it empty and use the [link text itself].
+- 高校园林、建筑、艺术等相关专业的教学辅助
+- 园林设计方案展示与交流
+- 文化展览、科普教育等公共场所的互动体验
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
+## 结语
 
-Some text to show that the reference links can follow later.
+虚拟仿真技术为园林建筑的传承与创新提供了全新途径。我们将持续优化系统功能，丰富场景内容，助力园林文化的数字化传播与教育。
 
-[arbitrary case-insensitive reference text]: https://www.themefisher.com
-[1]: https://gethugothemes.com
-[link text itself]: https://www.getjekyllthemes.com
+---
 
-<hr>
-
-##### Paragraph
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
-
-<hr>
-
-##### Ordered List
-
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
-
-<hr>
-
-##### Unordered List
-
-* List item
-* List item
-* List item
-* List item
-* List item
-
-<hr>
-
-##### Code and Syntax Highlighting
-
-Inline `code` has `back-ticks around` it.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-<hr>
-
-##### Blockquote
-
-> This is a blockquote example.
-
-<hr>
-
-##### Inline HTML
-
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
-
-<hr>
-
-{{< notice "note" >}}This is a simple note{{</ notice >}}
-
-{{< notice "tip" >}}This is a simple note{{</ notice >}}
-
-{{< notice "info" >}}This is a simple note{{</ notice >}}
-
-{{< notice "warning" >}}This is a simple note{{</ notice >}}
-
-<hr>
-
-##### Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| *Still*  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
-<hr>
-
-##### Image
-
-{{< image src="images/blog/post-6.jpg" caption="an image caption" alt="alter-text" height="425" width="860" position="center" command="fit" option="q100" class="img-fluid" title="image title" >}}
-
-
-<hr>
-
-##### Youtube video
-
-{{< youtube ResipmZmpDU >}}
+如需体验或合作开发，欢迎联系我们！
