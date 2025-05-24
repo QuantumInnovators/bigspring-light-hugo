@@ -9,10 +9,10 @@ name = "博客"
 url = "/blog"
 weight = 2
 
-[[main]]
-name = "价格"
-url = "/pricing"
-weight = 3
+# [[main]]
+# name = "价格"
+# url = "/pricing"
+# weight = 3
 
 [[main]]
 name = "联系我们"
@@ -33,14 +33,14 @@ url = "#"
 name = "快速开始"
 url = "#"
 
-[[footer_left]]
-name = "价格"
-url = "/pricing"
+# [[footer_left]]
+# name = "价格"
+# url = "/pricing"
 
-# 页脚菜单中间
-[[footer_middle]]
-name = "价格"
-url = "/pricing"
+# # 页脚菜单中间
+# [[footer_middle]]
+# name = "价格"
+# url = "/pricing"
 
 [[footer_middle]]
 name = "平台"
