@@ -1,10 +1,12 @@
 ---
 title: "[译]Agents的上下文工程"
 date: 2025-07-06T20:44:46+08:00
-draft: true
+draft: false
+image: "images/blog/context_eng_overview.png"
 # description
 description: "Agents需要上下文才能执行任务。上下文工程是一门艺术和科学，它旨在在代理的每个轨迹步骤中，用恰到好处的信息填充上下文窗口。在这篇文章中，我将上下文工程分为当今许多流行的代理中常见的几种策略。"
 ---
+
 # 代理的上下文工程
 
 **作者：** 兰斯·马丁 (Lance Martin)

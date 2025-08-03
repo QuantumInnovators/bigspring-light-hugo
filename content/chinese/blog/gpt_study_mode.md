@@ -1,6 +1,7 @@
 ---
 title: "OpenAI 新推出的学习模式：孩子的教育是否应该换个思路了"
 date: 2025-07-30T09:53:07+08:00
+image: "images/blog/openai-study-mode.png"
 draft: true
 description: "深入解析 OpenAI 学习模式的功能特点、使用方法和教育价值，探索 AI 如何改变传统学习方式"
 tags: ["AI", "教育", "OpenAI", "ChatGPT", "学习模式"]
