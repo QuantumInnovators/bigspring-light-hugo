@@ -1,7 +1,6 @@
 ---
 title: "【译】我是如何经济实惠地进行AI编程"
 date: 2025-08-11T17:05:58+08:00
-draft: true
 image: "assets/images/blog/how-i-code-with-ai.png"
 description: "拥抱混乱，享受过程，让你的创造力引领道路！"
 ---
