@@ -5,7 +5,13 @@
 <section class="section mt-4">
   <div class="container">
     <div class="row gx-md-5 gy-6">
-      {{ range first 1 (where site.RegularPages "Type" "featured") }}
+      {{ $main := where site.RegularPages "Section" "in" site.Params.mainSections }}
+      {{ $featured := where $main "Type" "featured" }}
+      {{ $lead := first 1 $featured }}
+      {{ $leadPath := "" }}
+      {{ with $lead }}
+      {{ range . }}
+      {{ $leadPath = .File.Path }}
       <div class="col-12 mb-5 pb-5">
         <div class="row align-items-center">
           <div class="col-md-6 mb-4 mb-md-0">
@@ -19,15 +25,22 @@
         </div>
       </div>
       {{ end }}
-      {{ $paginator := .Paginate (where site.RegularPages "Section" "in" site.Params.mainSections) }}
+      {{ end }}
+      {{ $listPages := $main }}
+      {{ if $leadPath }}
+      {{ $listPages = where $main "File.Path" "ne" $leadPath }}
+      {{ end }}
+      {{ $paginator := .Paginate $listPages }}
       {{ range $paginator.Pages }}
       <div class="col-lg-4 col-sm-6 pb-4">
         <div class="card bg-transparent border-0 h-100">
           {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "card-img-top rounded-2 mb-4" "Size" "460x") }}
-          <div class="card-body p-0">
+          <div class="card-body p-0 d-flex flex-column h-100">
             <h3><a href="{{ .Permalink }}" title="{{ .Title }}" class="text-dark d-inline-block">{{ .Title }}</a></h3>
-            <p class="mb-4">{{ .Params.description | default .Summary }}</p>
-            <a href="{{.Permalink}}" title="{{ i18n `read_more` }} - {{ .Title }}" class="btn btn-sm btn-primary btn-sm">{{ i18n `read_more` }}</a>
+            <p class="mb-3 flex-grow-1">{{ .Params.description | default .Summary }}</p>
+            <a href="{{.Permalink}}" title="{{ i18n `read_more` }} - {{ .Title }}" class="btn-link fw-600">
+              {{ i18n `read_more` }} <i class="fas fa-arrow-right"></i>
+            </a>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 ---
 title: "Nano Banana Pro 终极开发指南"
 date: 2025-12-22T10:25:07+08:00
-draft: true
+type: "featured"
 image: "http://writesome.oss-cn-chengdu.aliyuncs.com/20151222-nano-banana-pro/nano-banana-pro.jpeg"
 description: "探索这个下一代 AI 模型如何通过“思考能力”、实时搜索落地（Search Grounding）以及惊艳的 4K 画质，助你构建复杂而富有创意的应用程序。"
 ---
